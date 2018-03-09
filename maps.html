@@ -1,22 +1,37 @@
 
 
 <!---Project 02 - Volcanoes
-Brett Brandom, Joshua Bui, Jonathan Orozco, Caitlyn Ta -->
+Brett Brandom, Joshua Bui, Caitlyn Ta -->
 
 <!-- Maps -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+<meta charset="UTF-8">
 <head>
     <title>Volcanoes</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
- <!-- Bootstrap CDN -->
+<!-- Bootstrap CDN -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link href="https://bootswatch.com/4/darkly/bootstrap.min.css" rel="stylesheet" type="text/css">
 
+<!-- Leaflet JS & CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Leaflet-Parallax JS -->
+    <script type="text/javascript" src="leaflet-parallax.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
+<body>
 
 <!-- Nav bar & Drop down menu -->
 <font size=3>
@@ -62,34 +77,27 @@ Brett Brandom, Joshua Bui, Jonathan Orozco, Caitlyn Ta -->
 <p style="margin-top: 2.5em"></p>
 <div class="container-fluid">
   <div class="row">
-      <div class="col-md-6"><img src="images/volcano03.jpg"></div>
-      
+      <div class="col-md-6"><img src=""></div>      
       <div class="col-md-6"><font size="3">
-        <p>Plot of volcanic activity 
-        </ul>
-        </font>
-  
-      </p>
       </div>
   </div>
-</div>
-
-</div>
-
-  </div>
-
 
 </div>
 
 
+<!-- map div -->
+<div id="map"></div>
 
-
-</body>
 
 <!-- Latest compiled and minified JavaScript -->
+
+<script type="text/javascript" src="logic.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
