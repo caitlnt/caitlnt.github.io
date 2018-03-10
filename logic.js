@@ -1,5 +1,5 @@
 //Project 02 - Volcanoes
-//Brett Brandom, Joshua Bui, Caitlyn Ta
+//Brett Brandom, Joshua Bui, Jonathan Orozco, Caitlyn Ta
 
 
 // Function to determine circle radius based on magnitude
